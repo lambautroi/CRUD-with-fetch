@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #ff216d, #2196f3);
+}
+ul li {
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+ul li h3 {
+  color: #27d7cc;
+}
+ul li p {
+  font-weight: 300;
+  margin-top: 5px;
+  color: #fff;
+}
